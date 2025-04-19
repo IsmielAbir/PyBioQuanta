@@ -47,7 +47,7 @@ print(rc)
 ## 3. DNA Translator
 
 ```bash
-from QCBPyBioQuanta import translate_dna
+from PyBioQuanta import translate_dna
 
 dna_seq = "ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG"
 protein = translate_dna(dna_seq)
