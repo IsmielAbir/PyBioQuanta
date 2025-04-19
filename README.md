@@ -18,7 +18,7 @@ It is designed for quick sequence operations, small analyses, and everyday bioin
 
 ## Installation
 
-You can install PyBioQuanta via pip once it's uploaded:
+You can install PyBioQuanta via pip:
 
 ```bash
 pip install PyBioQuanta
