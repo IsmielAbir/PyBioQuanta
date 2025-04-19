@@ -1,6 +1,6 @@
-# QCBio
+# PyBioQuanta
 
-**QCBio** is a lightweight Python package offering 6 essential bioinformatics utilities.  
+**PyBioQuanta** is a lightweight Python package offering 6 essential bioinformatics utilities.  
 It is designed for quick sequence operations, small analyses, and everyday bioinformatics tasks.
 
 ---
@@ -18,17 +18,17 @@ It is designed for quick sequence operations, small analyses, and everyday bioin
 
 ## Installation
 
-You can install QCBio via pip once it's uploaded:
+You can install PyBioQuanta via pip once it's uploaded:
 
 ```bash
-pip install QCBio
+pip install PyBioQuanta
 ```
 
 
 # Usage
 ## 1. FASTA Reader
 ```bash
-from QCBio import read_fasta
+from PyBioQuanta import read_fasta
 
 sequences = read_fasta("example.fasta")
 print(sequences)
@@ -37,7 +37,7 @@ print(sequences)
 ## 2. Reverse Complement
 
 ```bash
-from QCBio import reverse_complement
+from PyBioQuanta import reverse_complement
 
 seq = "ATCG"
 rc = reverse_complement(seq)
@@ -47,7 +47,7 @@ print(rc)
 ## 3. DNA Translator
 
 ```bash
-from QCBio import translate_dna
+from QCBPyBioQuanta import translate_dna
 
 dna_seq = "ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG"
 protein = translate_dna(dna_seq)
@@ -58,7 +58,7 @@ print(protein)
 ## 4. GC Content Calculator
 
 ```bash
-from QCBio import gc_content
+from PyBioQuanta import gc_content
 
 seq = "ATGCGC"
 gc_percentage = gc_content(seq)
@@ -71,7 +71,7 @@ print(f"GC Content: {gc_percentage:.2f}%")
 ## 5. Motif Finder
 
 ```bash
-from QCBio import find_motif
+from PyBioQuanta import find_motif
 
 seq = "ATGCGCGTAGCGC"
 motif = "GCG"
@@ -83,7 +83,7 @@ print(positions)
 ## 6. Random DNA Generator
 
 ```bash
-from QCBio import generate_random_dna
+from PyBioQuanta import generate_random_dna
 
 random_seq = generate_random_dna(50)
 print(random_seq)
